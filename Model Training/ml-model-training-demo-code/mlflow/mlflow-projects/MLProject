@@ -1,0 +1,7 @@
+name: Model Training Demo
+
+python_env: requirements.yaml
+
+entry_points:
+  train:
+    command: "python3 /home/ubuntu/ml-model-training-demo-code/mlflow/mlflow-tracking/ray_tune.py"
